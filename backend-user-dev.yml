@@ -2,7 +2,7 @@ server:
   port: 8080
 
 spring:
-  datasource::
+  datasource:
     url: jdbc:mysql://host.docker.internal:13306/user?serverTimezone=UTC&useSSL=true&autoReconnect=true&useUnicode=true&characterEncoding=utf-8
     username: user
     password: 1234
@@ -44,4 +44,3 @@ jwt:
   table-expires-in: 31536000
   secret-key: AADfaskllew32dsfasdTG764Gdslkj298GsWg86Gkalsdjfalkdsjfkladsjfklasdjfkwejqtklfksadnfklsadjmfkl
 
-  
